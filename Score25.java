@@ -12,10 +12,10 @@ public class Score25 {
                 if (computerTaken[i].substring(computerTaken[i].length()-2,computerTaken[i].length()).equals("A")) {
                     computerPoint++;//as ları sayar puan ekler.
                 }
-                if (computerTaken[i].equals("♣2")) {
+                if (computerTaken[i].equals("Clubs2")) {
                     computerPoint=computerPoint+2;
                 }
-                if (computerTaken[i].equals("♦10")) {
+                if (computerTaken[i].equals("Diamonds10")) {
                     computerPoint=computerPoint+3;
                 }//Bu iki kartın puan durumu oyuna göre 2 ve 3 olduğundan değerlerini değiştirdiğim kısım
                 computerTakenIndex++;
@@ -31,10 +31,10 @@ public class Score25 {
                 if (playerTaken[i].substring(playerTaken[i].length()-2,playerTaken[i].length()).equals("A")) {
                     playerPoint++;//as'ları sayar puan ekler.
                 }
-                if (playerTaken[i].equals("♣2")) {
+                if (playerTaken[i].equals("Clubs2")) {
                     playerPoint=computerPoint+2;
                 }
-                if (playerTaken[i].equals("♦10")) {
+                if (playerTaken[i].equals("Diamonds10")) {
                     playerPoint=computerPoint+3;
                 }//Diğer oyuncu için de aynı hesaplar
                 playerTakenIndex++;
