@@ -20,5 +20,6 @@ public class PistiProject {
 
         Output25.deckPrint(floorDeck);
         System.out.println("computerPisti"+computerPisti[0]+"  playerPisti :"+playerPisti[0]);
+	Score.pointCalculate(playerTaken, playerPisti, computerTaken, computerPisti);
 	}
 }
