@@ -14,11 +14,11 @@ public class Output25 {
         }
         System.out.println("*******************");
     }
-    public static void xPrint(String[] aDeck)
+    public static void xPrint(String[] playerDeck)
     {int counter =0;
         System.out.println("*******************");
         System.out.println("Card at player :");
-        for(String item : aDeck)
+        for(String item : playerDeck)
         {
             if (item!=null) {
                 System.out.println(counter+" "+item);
