@@ -18,7 +18,7 @@ public class PistiProject {
   
         Game25.play(deck,floorDeck,playerDeck,computerDeck,true, playerTaken,playerPisti, computerTaken,computerPisti);
 
-       // Output25.deckPrint(floorDeck);
-      //  System.out.println("computerPisti"+computerPisti[0]+"  playerPisti :"+playerPisti[0]);
+        Output25.deckPrint(floorDeck);
+        System.out.println("computerPisti"+computerPisti[0]+"  playerPisti :"+playerPisti[0]);
 	}
 }
